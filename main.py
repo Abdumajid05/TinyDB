@@ -1,10 +1,14 @@
 from tinydb import TinyDB
 import tinydb
-
+import requests
 db = TinyDB('db.json',indent=4)
 
-data1 = {'first_name': 'Adham', 'last_name': 'Turopov', 'job': 'Software Engineer'}
-data2 = {'first_name': 'Aziz', 'last_name': 'Aliyev', 'job': 'Project Manager'}
-
-db.insert_multiple([data1, data2])
-
+url = "https://randomuser.me/api/"
+response = requests.get(url)
+data = response.json()
+for user in data['results']:
+    db.insert({'last_name': user['name']['last'], 'first_name': user['name']['first'], 'age': user['dob']['age'], 'gender': user['gender']})  
+users = db.all()
+for user in users:
+    print(user)
+db.remove(tinydb.where('first_name') == 'Aziz')
