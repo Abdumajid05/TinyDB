@@ -1,0 +1,109 @@
+{
+    "_default": {
+        "1": {
+            "name": "Samsung Galaxy A25 8/256GB",
+            "price": 3262500,
+            "storage": "256GB",
+            "camera": "50MP",
+            "battery": "5000mAh"
+        },
+        "2": {
+            "name": "Samsung Galaxy S23 FE 8/128GB",
+            "price": 5720000,
+            "storage": "128GB",
+            "camera": "50MP",
+            "battery": "4500mAh"
+        },
+        "3": {
+            "name": "Samsung Galaxy S23 FE 8/256GB",
+            "price": 6630000,
+            "storage": "256GB",
+            "camera": "50MP",
+            "battery": "4500mAh"
+        },
+        "4": {
+            "name": "Samsung Galaxy Z Fold 6 12/512GB",
+            "price": 19522500,
+            "storage": "512GB",
+            "camera": "50MP",
+            "battery": "4800mAh"
+        },
+        "5": {
+            "name": "Samsung Galaxy A25 8/128GB",
+            "price": 2878000,
+            "storage": "128GB",
+            "camera": "50MP",
+            "battery": "5000mAh"
+        },
+        "6": {
+            "name": "Samsung Galaxy S24+ 12/512GB",
+            "price": 12065000,
+            "storage": "512GB",
+            "camera": "50MP",
+            "battery": "4900mAh"
+        },
+        "7": {
+            "name": "Infinix Note 40 Pro 12/256GB",
+            "price": 3741000,
+            "storage": "256GB",
+            "camera": "108MP",
+            "battery": "5000mAh"
+        },
+        "8": {
+            "name": "Apple iPhone 16 Pro Max 256GB",
+            "price": 17139000,
+            "storage": "256GB",
+            "camera": "48MP",
+            "battery": "4352mAh"
+        },
+        "9": {
+            "name": "Xiaomi Poco X5 Pro 12/512GB",
+            "price": 4745000,
+            "storage": "512GB",
+            "camera": "108MP",
+            "battery": "5000mAh"
+        },
+        "10": {
+            "name": "Tecno Spark 20 Pro 8/256GB",
+            "price": 2389000,
+            "storage": "256GB",
+            "camera": "50MP",
+            "battery": "5000mAh"
+        },
+        "11": {
+            "name": "Samsung Galaxy A25 6/128GB",
+            "price": 2849000,
+            "storage": "128GB",
+            "camera": "50MP",
+            "battery": "5000mAh"
+        },
+        "12": {
+            "name": "Samsung Galaxy A35 8/256GB",
+            "price": 4017000,
+            "storage": "256GB",
+            "camera": "64MP",
+            "battery": "5000mAh"
+        },
+        "13": {
+            "name": "Samsung Galaxy A16 6/128GB",
+            "price": 2171000,
+            "storage": "128GB",
+            "camera": "50MP",
+            "battery": "5000mAh"
+        },
+        "14": {
+            "name": "Xiaomi 14 12/512GB",
+            "price": 4355000,
+            "storage": "512GB",
+            "camera": "50MP",
+            "battery": "5000mAh"
+        },
+        "15": {
+            "name": "Xiaomi Poco X6 Pro 8/256GB",
+            "price": 4225000,
+            "storage": "256GB",
+            "camera": "108MP",
+            "battery": "5000mAh"
+        }
+    }
+}
